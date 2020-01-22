@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webchamame_lib", "webchamame_lib\webchamame_lib.csproj", "{B301D16A-716F-4AF4-BDC6-88D010FD1DEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webchamame_lib_dotest", "..\webchamame_lib_dotest\webchamame_lib_dotest\webchamame_lib_dotest.csproj", "{3005DE8A-7285-4B24-A898-3CB36F10BA2A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B301D16A-716F-4AF4-BDC6-88D010FD1DEF} = {B301D16A-716F-4AF4-BDC6-88D010FD1DEF}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B301D16A-716F-4AF4-BDC6-88D010FD1DEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B301D16A-716F-4AF4-BDC6-88D010FD1DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B301D16A-716F-4AF4-BDC6-88D010FD1DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B301D16A-716F-4AF4-BDC6-88D010FD1DEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3005DE8A-7285-4B24-A898-3CB36F10BA2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3005DE8A-7285-4B24-A898-3CB36F10BA2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3005DE8A-7285-4B24-A898-3CB36F10BA2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3005DE8A-7285-4B24-A898-3CB36F10BA2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
