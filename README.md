@@ -2,8 +2,9 @@
 
 C#で作成。
 含まれているプロジェクトは以下の2つ。
-webchamame_lib　－－ライブラリ本体　\bin\Release内のwebchamame_lib.dllを各自のプロジェクトに読み込むと使用できる。
-webchamame_lib_dotest　－－動作テスト用のサンプルプログラム　
+
+    webchamame_lib　－－ライブラリ本体　\bin\Release内のwebchamame_lib.dllを各自のプロジェクトに読み込むと使用できる。
+    webchamame_lib_dotest　－－動作テスト用のサンプルプログラム　
 
 webchamame_libの使用方法
 任意のプロジェクトでwebchamame_lib.dllを参照に追加し　WebChamame　オブジェクトを生成し使用する。
