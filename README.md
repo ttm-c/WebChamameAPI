@@ -6,9 +6,10 @@ C#で作成。
     webchamame_lib　－－ライブラリ本体　\bin\Release内のwebchamame_lib.dllを各自のプロジェクトに読み込むと使用できる。
     webchamame_lib_dotest　－－動作テスト用のサンプルプログラム　
 
-webchamame_libの使用方法
+webchamame_libの使用方法:
 任意のプロジェクトでwebchamame_lib.dllを参照に追加し　WebChamame　オブジェクトを生成し使用する。
 オブジェクト作成後、各種メソッドを呼び出し必要な設定を行い、request(string)メソッドに解析対象の文章を渡す。
+
 WebChamameクラスが持つメソッドは以下のとおり。
 
     WebChamame() －－オブジェクト作成時のコンストラクタ
